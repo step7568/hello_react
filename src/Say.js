@@ -29,6 +29,7 @@ const Say = () => {
            <button onClick={onClickLeave}>퇴장</button>
            <h1 style = {{color}}>{Message}</h1>
 
+        {/**DOM 요소에만 이벤트를 걸 수 있다. */}
            <button style={{ color: 'red'}} onClick={()=>setColor('red')}>빨강이 좋겠군</button>
            <button style={{ color: 'green'}} onClick={()=>setColor('green')}>초록이 좋겠군</button>
            <button style={{ color: 'blue'}} onClick={()=>setColor('blue')}>파랑이 좋겠군</button>
