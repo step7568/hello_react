@@ -1,9 +1,10 @@
 //import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
-import HooksTest from './HooksTest';
-import Info from './Info';
-import Average from './Average';
+// import HooksTest from './HooksTest';
+// import Info from './Info';
+// import Average from './Average';
+import StyledComponent from './StyledComponent';
 //import ValidationSample from './ValidationSample';
 //import ScrollBox from './ScrollBox';
 //import IterationSample from './IterationSample';
@@ -53,7 +54,7 @@ const App = () => {
         {visible ? '숨기기' : '보이기'}
       </button>
       <hr/>
-      {visible && <Average/>}
+      {visible && <StyledComponent/>}
     </>
   );
 };
